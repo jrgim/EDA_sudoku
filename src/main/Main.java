@@ -14,7 +14,12 @@ public class Main {
 				{6,4,5,9,7,8,3,1,2},
 				{9,7,8,3,1,2,6,4,5}
 		};
-		
+		int aleatorio, aleatorioDos;
+		for(int k=0;k<50;k++) {
+			aleatorio = (int)(Math.random()*8);
+			aleatorioDos = (int)(Math.random()*8);
+			sudoku[aleatorio][aleatorioDos]=0;
+		}
 		for(int i=0;i<9;i++) {
 			for(int j=0;j<9;j++){
 				System.out.print(sudoku[i][j]);
