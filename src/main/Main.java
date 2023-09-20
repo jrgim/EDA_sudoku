@@ -25,6 +25,7 @@ public class Main {
 				System.out.print(sudoku[i][j]);
 			}
 			System.out.println("\n");
+			System.out.println(" ");
 		}
 	}
 
